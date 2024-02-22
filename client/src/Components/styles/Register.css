@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+
+
+.regform{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding-top:50px;
+}
+
+
+ .myform{
+    width:1000px;
+    height:80%;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.myform-div1{
+    position: relative;
+    width:50%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+}
+
+.myform-div1 img{
+    width:500px;
+    height:100%;
+}
+
+.text-overlay {
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+}
+
+.text-overlay h6{
+    padding:20px;
+    font-size:50px;
+    color:white;
+    font-family:"Poppins";
+    font-weight:600;
+    opacity:0.8;
+}
+
+.text-overlay p{
+    padding:10px;
+    font-size:30px;
+    color:white;
+    font-family:"Poppins";
+    font-weight:500;
+    opacity:1;
+}
+
+
+.myform-div2{
+    width:50%;
+    height:100%;
+    background-color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.name{
+    background-color:white;
+}
+
+
+.myform input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+  }
+
+
+.myform input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+  }
+

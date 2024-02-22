@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Merriweather:ital,wght@1,300;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:ital,wght@0,700;1,400&family=Tillana:wght@500&display=swap');
+
+.admin-login-container
+{
+    width:100%;
+    height:100vh;
+    padding-top:200px;
+}
+
+.admin-login-sub-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family:"roboto";
+
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-family:"roboto";
+  }
+  
+  .adminlogform{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .adminloginbtn{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .adminloginbtn:hover {
+    background-color: #45a049;
+  }
+  

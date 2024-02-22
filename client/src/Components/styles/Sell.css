@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Merriweather:ital,wght@1,300;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:ital,wght@0,700;1,400&family=Tillana:wght@500&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+
+
+.formdiv{
+    
+    min-height:100vh;
+    padding-top:150px;
+    font-family:"Roboto";
+    background-image:url('../img/sell.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.formdiv form{
+  max-width:800px;
+  margin:0 auto;
+  padding:50px;
+  background:#ffffff;
+  border-radius:9px;
+}
+
+.formdiv input[type='number']::-webkit-inner-spin-button {
+    display: none;
+  }
+
+
+.formdivinput[type='number']::-webkit-outer-spin-button {
+    display: none;
+  }
+
+
+.heading{
+    font-weight:400;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family:"Roboto";
+}
+
+
+
+
+
+

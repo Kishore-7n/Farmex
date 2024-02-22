@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Merriweather:ital,wght@1,300;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@400;500&family=Tillana:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+.flex-container{
+    width:100%;
+    min-height:100vh;
+    height:auto;
+    padding-top:150px;
+    padding-left:50px;
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:5rem;
+    column-gap:5rem;
+}
+
+
+.flex-box{
+    width:300px;
+    height:400px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:19px;
+    background-color:white;
+    box-shadow:5px 8px 15px 8px #D9D9D9;
+    color:black;
+    font-family:"Roboto";
+    z-index:1;
+}
+
+.flex-box img{
+    width:200px;
+    height:200px;
+    border-radius:9px;
+}
+
+.flex-box .product-name{
+    text-align:center;
+    padding-top:30px;
+    font-weight:500;
+}
+
+.flex-box .product-price-cart{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.product-price{
+    color:#0076CE;
+    font-family:"Roboto";
+    font-weight:600;
+    font-size:15px;
+}
+
+.product-cart{
+    width:150px;
+    outline:none;
+    color:white;
+    font-family:"Roboto";
+    font-weight:500;
+    background-color:blue;
+    border:2px solid blue;
+    border-radius:5px;
+}
+
+.product-cart-link{
+    text-decoration:none;
+    color:black;
+}
+
+.cart-button{
+    width:100%;
+    padding-right:100px;
+    float:right;
+}
+
+
+
+
+/* background-color:#0076CE */
+
+
+html::-webkit-scrollbar{
+    width:5px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:grey; 
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+
+.search-container{
+    padding-top:60px;
+    width:100%;
+    height:130px;
+    background-color:black;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    padding-left:50px;
+    z-index:4;
+ 
+}
+
+.search-container input{
+    width:75%;
+    height:45px;
+    border:none !important;
+    outline:none !important;
+    border-radius:7px;
+    margin-right:10px;
+    
+}
+
+.search-container input::placeholder{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    color:black;
+    margin-right: 10px;
+    font-family:"roboto";
+}
+
+
+.sellfield2{
+    width:170px;
+    height:45px;   
+    font-family:"roboto";  
+    background-color:white;
+    margin-right:10px;
+    border-radius:7px;
+    border:none !important;
+    outline:none !important;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+
+
+  
+
+
+
+
+
+
+  
+
