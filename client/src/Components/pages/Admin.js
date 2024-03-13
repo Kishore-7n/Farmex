@@ -102,7 +102,7 @@ function Admin() {
    };
 
     const Previousorder = async() => {
-        const order =  await fetch(`http://localhost:8000/admin/getorders`,
+        const order =  await fetch(`https://farmex.onrender.com/admin/getorders`,
           {
             method:'get',
             mode:'cors',

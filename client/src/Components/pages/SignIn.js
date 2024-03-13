@@ -46,7 +46,7 @@ let loginerror;
 
     event.preventDefault();
 
-    const loginresponse = await fetch("http://localhost:8000/login",{
+    const loginresponse = await fetch("https://farmex.onrender.com/login",{
       method:'post',
       headers:{"Content-Type":"application/json"},
       body:

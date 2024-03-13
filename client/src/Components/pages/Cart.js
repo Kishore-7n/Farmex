@@ -27,7 +27,7 @@ export default function Cart() {
       );
     const handlecheckout = async(cartitems) =>
     {
-        const checkout =  await fetch('http://localhost:8000/create-checkout-session',{
+        const checkout =  await fetch('https://farmex.onrender.com/create-checkout-session',{
             method:'post',
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify({

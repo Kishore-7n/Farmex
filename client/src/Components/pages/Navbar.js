@@ -30,6 +30,7 @@ export default function Navbar() {
         <ul className='ullist'>
           <li><Link to='/'>HOME</Link></li>
           <li>{userData ? (<Link to='/product'>SHOP</Link>):(<Link to='/signup'>REGISTER</Link>)}</li>
+          <li><Link to='/admin/login'>ADMIN</Link></li>
           <li>{userData ? (<h6>Welcome {userData.Name}</h6>):(" ")}</li>
           <li>{userData ?(<img src={userData.image && userData.image.url} alt='xyxyx' onClick={()=>{navigate('/profile')}}></img>):(" ")}</li>
           <li>{userData ? (<button onClick={handlelogout}>LOGOUT</button>):(<button  onClick={()=>{navigate('/login')}}>LOGIN</button>)}</li> 

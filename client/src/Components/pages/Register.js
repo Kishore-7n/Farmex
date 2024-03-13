@@ -36,7 +36,7 @@ export default function Register() {
 }   
     const handlesubmit = async(event) =>{
         event.preventDefault();
-        const signupresponse = await  fetch("http://localhost:8000/signup",{
+        const signupresponse = await  fetch("https://farmex.onrender.com/signup",{
             method:'post',
             mode:'cors',
             headers:{"Content-Type":"application/json"},

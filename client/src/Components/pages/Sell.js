@@ -86,7 +86,7 @@ export default function Sell() {
   {
     event.preventDefault();
 
-    const response = await fetch('http://localhost:8000/sell',{
+    const response = await fetch('https://farmex.onrender.com/sell',{
       method:'post',
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify({

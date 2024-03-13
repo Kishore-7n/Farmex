@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://farmex.netlify.app';
 
 const checkoutstripe = async(req,res) => {
 

@@ -38,7 +38,7 @@ export default function ProductView() {
    const navigate = useNavigate();
 
    const initialfetch = async() => {
-    const response = await fetch("http://localhost:8000/product",{
+    const response = await fetch("https://farmex.onrender.com/product",{
       method:'get',
     });
     const fetched_products = await response.json();

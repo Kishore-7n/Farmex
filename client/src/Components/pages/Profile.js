@@ -189,7 +189,7 @@ const handleClickOpen3 = () => {
 };
 
 const Previousorder = async() => {
-  const order =  await fetch(`http://localhost:8000/profile/${userid}`,
+  const order =  await fetch(`https://farmex.onrender.com/profile/${userid}`,
     {
       method:'get',
       mode:'cors',
