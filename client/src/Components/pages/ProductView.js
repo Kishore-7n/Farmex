@@ -54,6 +54,7 @@ export default function ProductView() {
   const[filtertext,setfiltertext] = useState("")
 
   useEffect(()=> {
+    // eslint-disable-next-line
     setloading(true)
     setTimeout(()=>{
       setloading(false)
@@ -62,8 +63,10 @@ export default function ProductView() {
   },[])
 
   useEffect(()=>{
+    // eslint-disable-next-line
     initialfetch()
     dispatch(fetchProducts())
+    // eslint-disable-next-line
 },[]) 
 
 
@@ -124,12 +127,14 @@ export default function ProductView() {
 
   useEffect(()=>{
     handlebyname(filtertext)
+    // eslint-disable-next-line
   },[filtertext])
 
   
 
   useEffect(()=>{
     handlesearchBycategory(category)
+    // eslint-disable-next-line
   },[category])
   
   
