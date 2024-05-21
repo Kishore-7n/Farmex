@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 
-const YOUR_DOMAIN = 'https://farmex-wq44.onrender.com';
+const YOUR_DOMAIN = 'https://farmex.netlify.app';
 
 const checkoutstripe = async(req,res) => {
 
